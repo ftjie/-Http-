@@ -1,0 +1,11 @@
+﻿  main.cpp
+D:\Users\Administrator\source\repos\通过自定义静态库与动态库中的线程池实现的HTTP服务器\main.cpp(81,12): warning C4101: “thread”: 未引用的局部变量
+D:\Users\Administrator\source\repos\通过自定义静态库与动态库中的线程池实现的HTTP服务器\main.cpp(217,33): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Users\Administrator\source\repos\通过自定义静态库与动态库中的线程池实现的HTTP服务器\main.cpp(228,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Users\Administrator\source\repos\通过自定义静态库与动态库中的线程池实现的HTTP服务器\main.cpp(229,10): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  static_ThreadPool.lib(static_ThreadPool.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+static_ThreadPool.lib(static_ThreadPool.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(main.obj 中)
+static_ThreadPool.lib(static_ThreadPool.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MD_DynamicRelease”不匹配值“MDd_DynamicDebug”(main.obj 中)
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+D:\Users\Administrator\source\repos\通过自定义静态库与动态库中的线程池实现的HTTP服务器\x64\Debug\通过自定义静态库与动态库中的线程池实现的HTTP服务器.exe : fatal error LNK1319: 检测到 2 个不匹配项
